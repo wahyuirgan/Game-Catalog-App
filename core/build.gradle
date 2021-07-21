@@ -23,6 +23,10 @@ android {
         buildConfigField "String", "API_KEY", "\"a236dddd68094875814b193a7d2af0d2\""
     }
 
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
     buildTypes {
         release {
             minifyEnabled false
