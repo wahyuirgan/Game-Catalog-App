@@ -1,0 +1,5 @@
+rootProject.name = "GameCatalogApp"
+include ':app'
+include ':core'
+include ':bookmark'
+include ':setting'

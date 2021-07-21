@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Katalog Game</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_bookmark">Bookmark</string>
+    <string name="dicoding_logo">Logo Dicoding</string>
+    <string name="app_logo">Logo Aplikasi</string>
+    <string name="label_version_app">Versi Aplikasi</string>
+    <string name="label_version">Versi</string>
+    <string name="label_go_to_top">Gulirkan ke Atas</string>
+    <string name="label_year_released">Rilis Game</string>
+    <string name="label_description">Deskripsi Game</string>
+    <string name="label_bookmark_game">Bookmark Game</string>
+    <string name="notif_bookmark_add">Telah Ditambahkan ke Bookmark</string>
+    <string name="notif_bookmark_delete">Telah Dihapus dari Bookmark</string>
+    <string name="label_exceptional">Exceptional</string>
+    <string name="label_recomended">Recommended</string>
+    <string name="label_meh">Meh</string>
+    <string name="label_skip">Skip</string>
+    <string name="label_none">Tidak Ada</string>
+    <string name="label_setting">Pengaturan</string>
+    <string name="label_no_bookmark">Tidak Ada Daftar Bookmark</string>
+</resources>

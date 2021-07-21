@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_setting">Pengaturan</string>
+    <string name="title_reminder">Pengingat</string>
+    <string name="reminder_nine">Pengingat pada jam 09.00 AM</string>
+    <string name="reminder_nine_active">Pengingat pada jam 9.00 AM Diaktifkan</string>
+    <string name="reminder_nine_deactive">Pengingat pada jam 9.00 AM Dinonaktifkan</string>
+    <string name="reminder_title">Pengingat Aplikasi Katalog Game</string>
+    <string name="reminder_message">Ini Waktunya Membuka Aplikasi Katalog Game, Ayo Segera Cek</string>
+    <string name="title_language_option">Ganti Lokalisasi Bahasa</string>
+    <string name="title_language">Lokalisasi Bahasa</string>
+</resources>

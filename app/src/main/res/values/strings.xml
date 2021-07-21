@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Game Catalog</string>
+    <string name="title_home">Home</string>
+    <string name="title_bookmark">Bookmark</string>
+    <string name="dicoding_logo">Dicoding Logo</string>
+    <string name="app_logo">App Logo</string>
+    <string name="label_version_app">Version App</string>
+    <string name="label_version">Version</string>
+    <string name="label_go_to_top">Scroll To Top</string>
+    <string name="label_year_released">Game Released</string>
+    <string name="label_description">Game Description</string>
+    <string name="label_bookmark_game">Bookmark Game</string>
+    <string name="notif_bookmark_add">Has Been Added to the Bookmark</string>
+    <string name="notif_bookmark_delete">Has Been Removed from Bookmark</string>
+    <string name="label_exceptional">Exceptional</string>
+    <string name="label_recomended">Recommended</string>
+    <string name="label_meh">Meh</string>
+    <string name="label_skip">Skip</string>
+    <string name="label_none">None</string>
+    <string name="label_setting">Setting</string>
+    <string name="label_no_bookmark">There is No Bookmark List</string>
+</resources>

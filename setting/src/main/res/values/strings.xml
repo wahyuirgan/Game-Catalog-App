@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_setting">Setting</string>
+    <string name="title_reminder">Reminder</string>
+    <string name="reminder_nine">Reminder at 09.00 AM</string>
+    <string name="reminder_nine_active">Reminder at 9.00 AM Activated</string>
+    <string name="reminder_nine_deactive">Reminder at 9.00 AM Deactivated</string>
+    <string name="reminder_title">Game Catalog App Reminder</string>
+    <string name="reminder_message">It\'s Time to Open Game Catalog App, Let\'s Check it Out</string>
+    <string name="title_language_option">Change Localization</string>
+    <string name="title_language">Localization</string>
+</resources>
