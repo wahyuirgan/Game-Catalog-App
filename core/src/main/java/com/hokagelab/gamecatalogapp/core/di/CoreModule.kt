@@ -10,7 +10,6 @@ import com.hokagelab.gamecatalogapp.core.domain.repository.IGameRepository
 import androidx.room.Room
 import com.hokagelab.gamecatalogapp.core.utils.AppExecutors
 import okhttp3.OkHttpClient
-import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.android.ext.koin.androidContext
 import org.koin.dsl.module
 import retrofit2.Retrofit

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="label_no_bookmark">There is No Bookmark List</string>
-    <string name="label_bookmark">Bookmark</string>
 </resources>
