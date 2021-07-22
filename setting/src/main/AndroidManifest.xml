@@ -9,7 +9,8 @@
 
     <dist:module
         dist:instant="false"
-        dist:title="@string/title_setting">
+        dist:title="@string/title_setting"
+        tools:ignore="ManifestResource">
         <dist:delivery>
             <dist:install-time />
         </dist:delivery>
