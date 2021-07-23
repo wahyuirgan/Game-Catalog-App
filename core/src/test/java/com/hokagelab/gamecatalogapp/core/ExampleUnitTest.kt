@@ -1,4 +1,4 @@
-package academy.bangkit.core
+package com.hokagelab.gamecatalogapp.core
 
 import org.junit.Test
 
