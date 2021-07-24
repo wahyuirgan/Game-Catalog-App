@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">core</string>
     <string name="poster_game">Poster Game</string>
     <string name="title_game">Game Title</string>
-    <string name="category_rating">Category Rating</string>
+    <string name="category_rating">Kategori Rating</string>
 </resources>

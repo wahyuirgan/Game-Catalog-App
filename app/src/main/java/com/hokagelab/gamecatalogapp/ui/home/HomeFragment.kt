@@ -63,6 +63,7 @@ class HomeFragment : Fragment() {
                     is Resource.Loading -> binding?.mainProgressBar?.visibility = View.VISIBLE
                     is Resource.Success -> {
                         binding?.mainProgressBar?.visibility = View.GONE
+                        binding?.shimmerLayout?.visibility = View.GONE
                         gameAdapter.setData(games.data)
                     }
                     else -> binding?.mainProgressBar?.visibility = View.GONE
