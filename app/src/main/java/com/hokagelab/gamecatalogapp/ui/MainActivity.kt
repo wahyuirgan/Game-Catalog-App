@@ -24,15 +24,9 @@ class MainActivity : AppCompatActivity() {
         setupBottomNavigation()
     }
 
-    private fun setupBottomNavigation() {
-        val bottomNavigationView = binding?.navigationView
-        val navigationHostFragment = supportFragmentManager.findFragmentById(R.id.navigation_host_fragment_activity_main) as NavHostFragment
-        if (bottomNavigationView != null) {
-            NavigationUI.setupWithNavController(
-                bottomNavigationView,
-                navigationHostFragment.navController
-            )
-        }
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding = null
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -43,8 +37,14 @@ class MainActivity : AppCompatActivity() {
         return super.onCreateOptionsMenu(menu)
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-        _binding = null
+    private fun setupBottomNavigation() {
+        val bottomNavigationView = binding?.navigationView
+        val navigationHostFragment = supportFragmentManager.findFragmentById(R.id.navigation_host_fragment_activity_main) as NavHostFragment
+        if (bottomNavigationView != null) {
+            NavigationUI.setupWithNavController(
+                bottomNavigationView,
+                navigationHostFragment.navController
+            )
+        }
     }
 }

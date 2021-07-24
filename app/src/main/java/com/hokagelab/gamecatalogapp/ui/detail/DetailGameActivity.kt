@@ -18,10 +18,6 @@ import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class DetailGameActivity : AppCompatActivity() {
 
-    companion object {
-        const val EXTRA_DATA = "extra_data"
-    }
-
     private val detailGameViewModel: DetailGameViewModel by viewModel()
 
     private var _binding: ContentDetailGameBinding? = null
@@ -202,5 +198,9 @@ class DetailGameActivity : AppCompatActivity() {
             snackBar?.setTextColor(Color.parseColor("#FFE2FF"))
             snackBar?.show()
         }
+    }
+
+    companion object {
+        const val EXTRA_DATA = "extra_data"
     }
 }

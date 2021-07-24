@@ -63,6 +63,7 @@ class BookmarkFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
+        binding?.rvBookmarkGame?.adapter = null
         _binding = null
         unloadKoinModules(bookmarkModule)
     }
