@@ -2,21 +2,15 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
 
     <!-- margin -->
-    <dimen name="margin_5dp">5dp</dimen>
     <dimen name="margin_8dp">8dp</dimen>
     <dimen name="margin_10dp">10dp</dimen>
-    <dimen name="margin_15dp">15dp</dimen>
     <dimen name="margin_16dp">16dp</dimen>
     <dimen name="margin_20dp">20dp</dimen>
-    <dimen name="margin_24dp">24dp</dimen>
     <dimen name="margin_28dp">28dp</dimen>
-    <dimen name="margin_30dp">30dp</dimen>
     <dimen name="margin_40dp">40dp</dimen>
     <dimen name="margin_55dp">55dp</dimen>
-    <dimen name="margin_57dp">57dp</dimen>
     <!-- text size -->
     <dimen name="text_size_14sp">14sp</dimen>
-    <dimen name="text_size_15sp">15sp</dimen>
     <dimen name="text_size_16sp">16sp</dimen>
     <dimen name="text_size_20sp">20sp</dimen>
     <dimen name="text_size_25sp">25sp</dimen>
@@ -24,28 +18,15 @@
     <!-- elevation -->
     <dimen name="elevation_10dp">10dp</dimen>
     <!-- height -->
-    <dimen name="height_18pt">18pt</dimen>
-    <dimen name="height_100dp">100dp</dimen>
-    <dimen name="height_190dp">190dp</dimen>
     <dimen name="height_300dp">300dp</dimen>
-    <!-- width -->
-    <dimen name="width_1dp">1dp</dimen>
-    <dimen name="width_190dp">190dp</dimen>
-    <dimen name="width_200dp">200dp</dimen>
     <!-- padding -->
-    <dimen name="padding_5dp">5dp</dimen>
-    <dimen name="padding_10dp">10dp</dimen>
     <dimen name="padding_14dp">14dp</dimen>
     <dimen name="padding_16dp">16dp</dimen>
     <dimen name="padding_20dp">20dp</dimen>
-    <dimen name="padding_28dp">28dp</dimen>
     <dimen name="padding_55dp">55dp</dimen>
     <!-- corner radius -->
-    <dimen name="corner_radius_5dp">5dp</dimen>
     <dimen name="corner_radius_10dp">10dp</dimen>
     <!-- dimension -->
-    <dimen name="dimension_3dp">3dp</dimen>
     <!-- radius -->
-    <dimen name="radius_32dp">32dp</dimen>
 
 </resources>

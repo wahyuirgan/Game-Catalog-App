@@ -18,6 +18,5 @@
     <string name="label_skip">Skip</string>
     <string name="label_none">None</string>
     <string name="label_setting">Setting</string>
-    <string name="label_no_bookmark">There is No Bookmark List</string>
     <string name="category_rating">Category Rating</string>
 </resources>

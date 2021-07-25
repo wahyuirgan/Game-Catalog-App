@@ -62,6 +62,7 @@ class DetailGameActivity : AppCompatActivity() {
             is Resource.Success -> {
                 if (detailGame.data != null) {
                     binding?.mainProgressBar?.visibility = View.GONE
+                    activityDetailGameBinding?.shimmerDetailLayout?.visibility = View.GONE
                     populateData(detailGame.data)
                 }
             }

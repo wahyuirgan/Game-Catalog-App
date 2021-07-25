@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@android:color/darker_gray"
+    android:layout_margin="@dimen/margin_10dp">
+
+    <ImageView
+        android:id="@+id/ivDetailMoviePoster"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_300dp"
+        android:background="#DDDDDD"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/poster_game"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvDetailGameName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_28dp"
+        android:textSize="@dimen/text_size_25sp"
+        android:textStyle="bold"
+        android:textColor="#00000000"
+        android:gravity="center"
+        android:background="#DDDDDD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivDetailMoviePoster"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/tvGameGenres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_28dp"
+        android:gravity="center"
+        android:textColor="#00000000"
+        android:background="#DDDDDD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetailGameName"
+        tools:text="Genres"/>
+
+    <TextView
+        android:id="@+id/tvDetailGameRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_28dp"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_30sp"
+        android:textColor="#00000000"
+        android:background="#DDDDDD"
+        app:layout_constraintEnd_toEndOf="@+id/tvGameGenres"
+        app:layout_constraintStart_toStartOf="@+id/tvGameGenres"
+        app:layout_constraintTop_toBottomOf="@+id/tvGameGenres"
+        tools:text="Rating" />
+
+    <RatingBar
+        android:id="@+id/rbDetailGameVote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_20dp"
+        android:numStars="5"
+        android:progressTint="#DDDDDD"
+        android:progressBackgroundTint="#DDDDDD"
+        android:background="#DDDDDD"
+        style="?android:attr/ratingBarStyleSmall"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetailGameRating"
+        app:layout_constraintEnd_toEndOf="@+id/tvDetailGameRating"
+        app:layout_constraintStart_toStartOf="@+id/tvDetailGameRating"/>
+
+    <TextView
+        android:id="@+id/tvDetailGameRatingCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:gravity="center"
+        android:textColor="#00000000"
+        android:background="#DDDDDD"
+        app:layout_constraintEnd_toEndOf="@+id/rbDetailGameVote"
+        app:layout_constraintStart_toStartOf="@+id/rbDetailGameVote"
+        app:layout_constraintTop_toBottomOf="@+id/rbDetailGameVote"
+        tools:text="Rating Count" />
+
+    <ImageView
+        android:id="@+id/ivCategoryRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:layout_marginBottom="@dimen/margin_8dp"
+        android:src="@drawable/ic_category_rating_placeholder"
+        android:background="#DDDDDD"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/poster_game"
+        app:layout_constraintEnd_toEndOf="@+id/tvDetailGameRatingCount"
+        app:layout_constraintStart_toStartOf="@+id/tvDetailGameRatingCount"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetailGameRatingCount"/>
+
+    <TextView
+        android:id="@+id/tvCategoryRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:gravity="center"
+        android:textColor="#00000000"
+        android:background="#DDDDDD"
+        app:layout_constraintEnd_toEndOf="@+id/ivCategoryRating"
+        app:layout_constraintStart_toStartOf="@+id/ivCategoryRating"
+        app:layout_constraintTop_toBottomOf="@+id/ivCategoryRating"
+        tools:text="Category Rating" />
+
+    <TextView
+        android:id="@+id/tvGameCategoryRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_28dp"
+        android:gravity="center"
+        android:textColor="#00000000"
+        android:background="#DDDDDD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCategoryRating"
+        tools:text="List Rating Categories"/>
+
+    <TextView
+        android:id="@+id/tvReleasedLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:text="@string/label_year_released"
+        android:textColor="#00000000"
+        android:textSize="@dimen/text_size_16sp"
+        android:textStyle="bold"
+        android:background="#DDDDDD"
+        app:layout_constraintEnd_toEndOf="@+id/tvGameCategoryRating"
+        app:layout_constraintStart_toStartOf="@+id/tvGameCategoryRating"
+        app:layout_constraintTop_toBottomOf="@+id/tvGameCategoryRating" />
+
+    <TextView
+        android:id="@+id/tvDetailGameReleased"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_8dp"
+        android:textSize="@dimen/text_size_14sp"
+        android:textColor="#00000000"
+        android:background="#DDDDDD"
+        app:layout_constraintEnd_toEndOf="@+id/tvReleasedLabel"
+        app:layout_constraintStart_toStartOf="@+id/tvReleasedLabel"
+        app:layout_constraintTop_toBottomOf="@+id/tvReleasedLabel"
+        tools:text="Game Year Released Text" />
+
+    <TextView
+        android:id="@+id/tvDescriptionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_40dp"
+        android:text="@string/label_description"
+        android:textColor="#00000000"
+        android:textSize="@dimen/text_size_16sp"
+        android:textStyle="bold"
+        android:background="#DDDDDD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetailGameReleased" />
+
+    <TextView
+        android:id="@+id/tvDetailGameDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_8dp"
+        android:textSize="@dimen/text_size_14sp"
+        android:textColor="#00000000"
+        android:background="#DDDDDD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDescriptionLabel"
+        tools:text="Description Text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

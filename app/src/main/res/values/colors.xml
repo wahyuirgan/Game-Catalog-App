@@ -5,6 +5,5 @@
     <color name="toolbar_background">#191919</color>
     <color name="background_app_color">#0D1117</color>
     <color name="colorYellow">#FFFF00</color>
-    <color name="colorHomePager">#00FDA2</color>
     <color name="colorToolbarContras">#3a3a3a</color>
 </resources>

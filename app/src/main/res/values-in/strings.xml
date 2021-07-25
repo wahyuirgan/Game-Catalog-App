@@ -19,6 +19,5 @@
     <string name="label_skip">Skip</string>
     <string name="label_none">Tidak Ada</string>
     <string name="label_setting">Pengaturan</string>
-    <string name="label_no_bookmark">Tidak Ada Daftar Bookmark</string>
     <string name="category_rating">Kategori Rating</string>
 </resources>
