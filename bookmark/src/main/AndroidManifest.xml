@@ -6,6 +6,7 @@
     <dist:module
         dist:instant="false"
         dist:title="@string/title_bookmark"
+        android:supportsRtl="false"
         tools:ignore="ManifestResource">
         <dist:delivery>
             <dist:install-time />
