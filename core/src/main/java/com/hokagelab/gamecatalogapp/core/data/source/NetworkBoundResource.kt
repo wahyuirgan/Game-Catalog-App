@@ -1,3 +1,5 @@
+@file:Suppress("RemoveExplicitTypeArguments")
+
 package com.hokagelab.gamecatalogapp.core.data.source
 
 import com.hokagelab.gamecatalogapp.core.data.Resource
